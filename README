@@ -1,3 +1,9 @@
+==Introduction
+
+This was a coding challenge I took a number of years back for a development job at a gaming company. I was pleased with the result. What follows are the requirements I was supplied with.
+
+== Specification
+
 For your coding challenge, you will create an achievements system for a fictional online game. 
 
 Our fictional game is played online between two teams.  Each team can have 3-5 players (but must be evenly matched – i.e., if one team has 4 players, the other must have 4 players).  Statistics are compiled for each player during/after each game:
@@ -12,8 +18,11 @@ Our fictional game is played online between two teams.  Each team can have 3-5 p
 • Total spell damage done
 • Total time played
 
+==Statistics
 In addition, historical player statistics are maintained as well.  For instance, each player is credited with a win/loss based upon the performance of his/her team during the game.  Other historical player-level stats can be tracked as well – such as total number of games played, total duration of games played, total number of kills, etc.  
 Achievements are awarded based upon any combination of these statistics (historical OR game-specific).  Players collect achievements over time, and these will be displayed on their profile page (the display is outside the scope of this exercise).  This profile page is visible to all other players, so achievements act as a kind of “badge of honor”.   After each game has ended, the achievements logic is called and achievements are awarded to each of the players if applicable.  Your mission, if you choose to accept it, is to create this achievements system.
+
+==Expectations
 So, here’s what’s expected from this coding exercise:
 •	Code should be written in Java.  
 •	The achievements system that you are creating should correctly assign achievements to each player involved in the game that just ended, if applicable.
