@@ -37,13 +37,13 @@ So, here’s what’s expected from this coding exercise:
 * Persistence, messaging, and other potential concerns are considered ancillary to this exercise, so don’t worry about implementing such concerns.  
 * Create all domain objects suggested in the above description, using the proper data structures where applicable.
 * Create the achievements system.  At a minimum, it should have an entry point that would be called at the end of a game.  You must include the following achievements:
-	 * “Sharpshooter Award” – a user receives this for landing 75% of their attacks, assuming they have at least attacked once.
-	 * “Bruiser” Award – a user receives this for doing more than 500 points of damage in one game
-	 * “Veteran” Award – a user receives this for playing more than 1000 games in their lifetime.
-	 * “Big Winner” Award – a user receives this for having 200 wins
+ 1. “Sharpshooter Award” – a user receives this for landing 75% of their attacks, assuming they have at least attacked once.
+ 2. “Bruiser” Award – a user receives this for doing more than 500 points of damage in one game
+ 3. “Veteran” Award – a user receives this for playing more than 1000 games in their lifetime.
+ 4. “Big Winner” Award – a user receives this for having 200 wins
 * Your system should be extensible in the following ways:
-	 * The system must easily handle the tracking of additional statistics at any level listed above (historical by player or game-specific by player)
-     * The system must easily handle the addition of new achievements
+ 1. The system must easily handle the tracking of additional statistics at any level listed above (historical by player or game-specific by player)
+ 2. The system must easily handle the addition of new achievements
 * Add a new statistic, and create a new Achievement utilizing this statistic in conjunction to one of the other statistics defined above.
 * Create unit tests to demonstrate that your code is functional using JUnit 4.  
 * Create a driver class that sets up sample data and calls the achievements system, printing out achievements to the console.  
